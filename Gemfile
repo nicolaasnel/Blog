@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug', '4.0.5'
+  gem 'sqlite3'
 end
 
 group :development do
@@ -29,5 +30,4 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'sqlite3'
 end
